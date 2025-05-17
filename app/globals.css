@@ -24,3 +24,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: 'MyFontHeadlinerNo45-59y8';
+  src: url('/fonts/HeadlinerNo45-59y8.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.headliner {
+  font-family: 'MyFontHeadlinerNo45-59y8', sans-serif;
+}
